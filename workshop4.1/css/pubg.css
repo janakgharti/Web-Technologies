@@ -1,0 +1,15 @@
+*{
+    margin: o;
+    padding: 0;
+    background-color: aqua;
+}
+P{
+    font-size: 100%;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+img{
+    width: auto;
+    height: 80%;
+}
