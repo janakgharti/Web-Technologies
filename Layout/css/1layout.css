@@ -1,0 +1,95 @@
+
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.left-side {
+  width: 50%;
+  background-color: rgb(82, 86, 85);
+  padding: 5%;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  font-family: "Unbounded", cursive;
+}
+
+h2 {
+  margin-bottom: 100px;
+  font-weight: 200;
+}
+
+.right-side{
+  width: 50%;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.button a {
+  display: inline-block;
+  padding: 10px 50px;
+  background: rgb(247, 247, 41);
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 800;
+  transition: all 0.5s ease;
+}
+
+.button a:hover {
+  background: black;
+  color: orange;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .button a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-wrapper {
+    padding-bottom: 50px;
+  }
+
+  .left-side,
+  .right-side,{
+    width: 100%;
+  }
+
+  img{
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .button a {
+    text-align: center;
+  }
+}
